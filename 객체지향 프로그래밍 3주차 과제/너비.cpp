@@ -1,25 +1,25 @@
-// c++°ú cÀÇ ºñ±³ 2
+/* c++ê³¼ cì˜ ë¹„êµ 2 */
 
+// C++
 #include <iostream>
 using namespace std;
 
 int main() {
-	cout << "³Êºñ¸¦ ÀÔ·ÂÇÏ¼¼¿ä >>";
+	cout << "ë„ˆë¹„ë¥¼ ì…ë ¥í•˜ì„¸ìš” >>";
 
 	int width;
-	cin >> width;	// Å°º¸µå·ÎºÎÅÍ ³Êºñ¸¦ ÀĞ¾î width º¯¼ö¿¡ ÀúÀå
+	cin >> width;	// í‚¤ë³´ë“œë¡œë¶€í„° ë„ˆë¹„ë¥¼ ì½ì–´ width ë³€ìˆ˜ì— ì €ì¥
 
-	cout << "³ôÀÌ¸¦ ÀÔ·ÂÇÏ¼¼¿ä >>";
+	cout << "ë†’ì´ë¥¼ ì…ë ¥í•˜ì„¸ìš” >>";
 
 	int height;
-	cin >> height; // Å°º¸µå·ÎºÎÅÍ ³ôÀÌ¸¦ ÀĞ¾î height º¯¼ö¿¡ ÀúÀå
+	cin >> height; // í‚¤ë³´ë“œë¡œë¶€í„° ë†’ì´ë¥¼ ì½ì–´ height ë³€ìˆ˜ì— ì €ì¥
 
-	int area = width * height;	// »ç°¢ÇüÀÇ ¸éÀû °è»ê
-	cout << "¸éÀûÀº" << area << "\n";	 // ¸éÀûÀ» Ãâ·ÂÇÏ°í ´ÙÀ½ ÁÙ·Î ³Ñ¾î°¨
+	int area = width * height;	// ì‚¬ê°í˜•ì˜ ë©´ì  ê³„ì‚°
+	cout << "ë©´ì ì€" << area << "\n";	 // ë©´ì ì„ ì¶œë ¥í•˜ê³  ë‹¤ìŒ ì¤„ë¡œ ë„˜ì–´ê°
 }
 
-//
-
+// C
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
@@ -28,14 +28,14 @@ int main(void) {
 	int height;
 	int area;
 
-	printf("³Êºñ¸¦ ÀÔ·ÂÇÏ¼¼¿ä ");
+	printf("ë„ˆë¹„ë¥¼ ì…ë ¥í•˜ì„¸ìš” ");
 	scanf("%d", &width);
 
-	printf("³ôÀÌ¸¦ ÀÔ·ÂÇÏ¼¼¿ä ");
+	printf("ë†’ì´ë¥¼ ì…ë ¥í•˜ì„¸ìš” ");
 	scanf("%d", &height);
 
 	area = width * height;
-	printf("¸éÀûÀº %d \n", area);
+	printf("ë©´ì ì€ %d \n", area);
 
 	return 0;
 }
