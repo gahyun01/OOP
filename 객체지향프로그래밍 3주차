@@ -1,3 +1,5 @@
+1. c++과 c의 비교 1
+
 #include <iostream>
 
 double area(int r);		// 함수 원형 선언
