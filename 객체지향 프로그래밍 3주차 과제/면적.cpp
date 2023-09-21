@@ -1,11 +1,12 @@
-// c++°ú cÀÇ ºñ±³ 1
+/* c++ê³¼ cì˜ ë¹„êµ 1 */
 
+// C++
 #include <iostream>
 
-double area(int r);		// ÇÔ¼ö ¿øÇü ¼±¾ğ
+double area(int r);		// í•¨ìˆ˜ ì›í˜• ì„ ì–¸
 
-double area(int r) {	//ÇÔ¼ö ±¸Çö
-	return 3.14 * r * r;	// ¹İÁö¸§ rÀÇ ¿ø¸éÀû ¸®ÅÏ
+double area(int r) {	//í•¨ìˆ˜ êµ¬í˜„
+	return 3.14 * r * r;	// ë°˜ì§€ë¦„ rì˜ ì›ë©´ì  ë¦¬í„´
 }
 
 int main() {
@@ -13,11 +14,11 @@ int main() {
 	char c = '#';
 	std::cout << c << 5.5 << '-' << n << "hello" << true << std::endl;
 	std::cout << "n + 5 = " << n + 5 << '\n';
-	std::cout << "¸éÀûÀº " << area(n);	// ÇÔ¼ö area()ÀÇ ¸®ÅÏ °ª Ãâ·Â
+	std::cout << "ë©´ì ì€ " << area(n);	// í•¨ìˆ˜ area()ì˜ ë¦¬í„´ ê°’ ì¶œë ¥
 }
 
-//
 
+// C
 #include <stdio.h>
 
 int main(void) {
@@ -31,5 +32,5 @@ int main(void) {
 
 	printf("%c5.5-3hello1 \n", c);
 	printf("n + 5 = %d \n", n);
-	printf("¸éÀûÀº %.2f \n", area);
+	printf("ë©´ì ì€ %.2f \n", area);
 }
