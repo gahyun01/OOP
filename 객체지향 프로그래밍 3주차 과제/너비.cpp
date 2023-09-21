@@ -19,6 +19,7 @@ int main() {
 	cout << "면적은" << area << "\n";	 // 면적을 출력하고 다음 줄로 넘어감
 }
 
+
 // C
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
