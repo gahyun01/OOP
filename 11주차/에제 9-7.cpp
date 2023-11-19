@@ -2,6 +2,8 @@
 
 #include <iostream>
 using namespace std;
+
+
 class Calculator {
 	void input() {
 		cout << "정수 2 개를 입력하세요>> ";
@@ -17,6 +19,7 @@ public:
 	}
 };
 
+// 함수 오버라이딩 발생함
 class Adder : public  Calculator {
 protected:
 	int calc(int a, int b) {
@@ -24,6 +27,7 @@ protected:
 	}
 };
 
+// 함수 오버라이딩 발생함
 class Subtractor : public Calculator {
 protected:
 	int calc(int a, int b) {
