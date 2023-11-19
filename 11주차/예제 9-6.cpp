@@ -10,6 +10,7 @@ public:
 	}
 };
 
+// 객체 소멸되는 시점에 자동으로 호출되는 함수인 소멸자를 오버라이딩함
 class Derived :public Base {
 public:
 	virtual~Derived() {
